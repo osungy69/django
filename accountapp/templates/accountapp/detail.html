@@ -8,8 +8,8 @@
         {{ target_user.date_joined }}
       </p>
 
-      <img scr="{{ target_user.profile.image.url }}" alt=""
-           style="height: 12rem; width 12rem; border-radius: 20rem; margin-bottem: 2rem">
+      <img src="{{ target_user.profile.image.url }}" alt=""
+           style="height: 12rem; width: 12rem; border-radius: 20rem; margin-bottem: 2rem">
 
       {% if target_user.profile %}
       <h2 style="font-family: 'NanumSquareB';">
@@ -26,7 +26,7 @@
       </a>
       {% endif %}
 
-      <h5 style="margin-bottom: 3rem">
+      <h5 style="margin-bottom: 3rem;">
         {{ target_user.profile.message }}
       </h5>
 
