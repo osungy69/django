@@ -9,5 +9,3 @@ urlpatterns = [
     path('update/<int:pk>', ProfileUpdateView.as_view(), name='update'),
 ]
 
-
-
