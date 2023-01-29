@@ -14,6 +14,7 @@ from pathlib import Path
 
 import os
 import environ
+from django.contrib import staticfiles
 
 from django.urls import reverse_lazy
 
